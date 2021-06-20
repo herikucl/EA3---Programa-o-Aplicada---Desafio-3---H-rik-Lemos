@@ -19,9 +19,6 @@ float Montante,JurosAno;
   return Montante*pow((1+JurosAno),Periodo);
   }
 
-  float ConversaoJanoJmes(float j){
-  return pow(1+j,(1.0/12.0))-1;
-  }
   float ConversaoJanoJmes(){
   return pow(1+JurosAno,(1.0/12.0))-1;
   }

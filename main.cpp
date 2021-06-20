@@ -18,13 +18,19 @@ int main() {
   cout<<"Montante de j: R$"<<j.Montante<<endl;
   cout<<"Juros ao ano de j: R$"<<j.JurosAno<<"%"<<endl;
   cout<<"Periodo de j: "<<j.Periodo<<" anos"<<endl;
-  cout<<"\n--------------\n"<<endl;
+  cout<<"\n------FUNÇÕES PRINCIPAIS--------\n"<<endl;
   cout<<"Montante ao final do periodo de k com juros simples: R$"<<k.MontanteFinalJS()<<endl;
   cout<<"Montante ao final do periodo de k com juros compostos: R$"<<k.MontanteFinalJC()<<endl;
   cout<<"Conversão de juros anuais para juros mensais de k: "<<k.ConversaoJanoJmes()<<"%"<<endl;
   cout<<"Montante ao final do periodo de j com juros simples: R$"<<j.MontanteFinalJS()<<endl;
   cout<<"Montante ao final do periodo de k com juros compostos: R$"<<j.MontanteFinalJC()<<endl;
   cout<<"Conversão de juros anuais para juros mensais de j: "<<j.ConversaoJanoJmes()<<"%"<<endl;
+  cout<<"\n------FUNÇÕES EXTRAS-------\n"<<endl;
+  cout<<"Montante ao final do periodo de k com juros simples: R$"<<k.MontanteFinalJS(5)<<endl;
+  cout<<"Montante ao final do periodo de k com juros compostos: R$"<<k.MontanteFinalJC(8)<<endl;
+  cout<<"Montante ao final do periodo de j com juros simples: R$"<<j.MontanteFinalJS(9)<<endl;
+  cout<<"Montante ao final do periodo de k com juros compostos: R$"<<j.MontanteFinalJC(10)<<endl;
+  
 
 
 
